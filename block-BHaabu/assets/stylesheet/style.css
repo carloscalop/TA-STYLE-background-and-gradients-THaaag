@@ -1,0 +1,113 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Custom Styles */
+* {
+	text-align: center;
+	font-weight: bold;
+}
+.bg-img {
+	background-image: url("../media/bg1.jpg");
+	height: 1100px;
+	background-repeat: repeat-y;
+	background-size: 100%;
+}
+.title {
+	color: white;
+	font-size: 34px;
+	padding-top: 20px;
+	margin-bottom: 100px;
+}
+.box1 {
+	width: 400px;
+	height: 300px;
+	display: inline-block;
+	background-color: #FF0248;
+	font-size: 24px;
+	margin: 30px;
+	border-radius: 25px;
+}
+.box2 {
+	width: 400px;
+	height: 300px;
+	display: inline-block;
+	background-image: linear-gradient(to right, #412725, #FF0248);
+	font-size: 24px;
+	margin: 30px;
+	border-radius: 25px;
+} 
+.box3 {
+	width: 400px;
+	height: 300px;
+	display: inline-block;
+	background-image: radial-gradient(ellipse, #F90146, #FF0248, #412725);
+	font-size: 24px;
+	margin: 30px;
+	border-radius: 25px;
+} 
+p.boxtitle {
+	margin-top: 150px;
+  }
+  .box4 {
+	width: 1200px;
+	height: 600px;
+	display: inline-block;
+	font-size: 24px;
+	margin: 30px;
+	border-radius: 25px;
+	background-repeat: repeat-y;
+	background-size: 100%;
+	background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url("../media/bg2.jpg");
+    width: 80%;
+    height: 400px;
+    background-size: cover;
+    color: black;
+    padding: 20px;
+} 
